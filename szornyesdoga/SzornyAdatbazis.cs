@@ -9,7 +9,7 @@ namespace szornyesdoga
     {
         private readonly string connectionString;
 
-        public SzornyAdatbazis(string connectionString)
+        public SzornyAdatbazis()
         {
             this.connectionString = "Server=localhost;Database=szornyek;Uid=root;Pwd=;";
         }
